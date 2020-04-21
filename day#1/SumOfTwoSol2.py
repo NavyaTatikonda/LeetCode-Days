@@ -6,3 +6,6 @@ class Solution:
             diff=target-nums[j]
             if diff in nums:
                     return nums.index(diff),j
+
+#Time complexity - O(n^2)
+#Space Complexity - O(1)
